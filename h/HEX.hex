@@ -1,4 +1,4 @@
 GBL;
-Bug("1", "Hello World");
+Bug("1", "This is program in HEX language ** Hello World");
 Scuttle("1");
 Write;
