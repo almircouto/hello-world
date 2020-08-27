@@ -13,6 +13,8 @@ def regexReplace(string, search, replacement):
 languageCount = 0
 languagesText = ""
 
+# modificação 26/08/2020
+
 # List the available languages
 for directory in sorted(os.listdir('.')):
     if not (directory == '.' or directory == '..' or directory[0] == '.' or os.path.isfile(directory)):
